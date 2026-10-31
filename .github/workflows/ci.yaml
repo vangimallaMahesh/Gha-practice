@@ -1,0 +1,13 @@
+name: first-project
+
+on:
+  push
+
+jobs:
+  my_first_job:
+    runs-on: ubuntu-latest
+
+  steps:
+     - name: message
+     run: echo "hi welcome"
+    
